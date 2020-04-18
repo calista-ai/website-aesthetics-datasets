@@ -1,0 +1,502 @@
+{
+    "http://scholastic.com": {
+        "category": "Child Education", 
+        "sampleIndex": 2, 
+        "idInDataset": 0
+    }, 
+    "http://independent.ie": {
+        "category": "News and Media", 
+        "sampleIndex": 33, 
+        "idInDataset": 1
+    }, 
+    "http://iminent.com": {
+        "category": "Freeware and Software Downloads", 
+        "sampleIndex": 67, 
+        "idInDataset": 2
+    }, 
+    "http://geforce.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 75, 
+        "idInDataset": 3
+    }, 
+    "http://mlive.com": {
+        "category": "News and Media", 
+        "sampleIndex": 86, 
+        "idInDataset": 4
+    }, 
+    "http://iobit.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 94, 
+        "idInDataset": 5
+    }, 
+    "http://duckduckgo.com": {
+        "category": "Search Engines and Portals", 
+        "sampleIndex": 101, 
+        "idInDataset": 6
+    }, 
+    "http://farfetch.com": {
+        "category": "Shopping", 
+        "sampleIndex": 105, 
+        "idInDataset": 7
+    }, 
+    "http://evernote.com": {
+        "category": "Web-based Applications", 
+        "sampleIndex": 202, 
+        "idInDataset": 8
+    }, 
+    "http://bostonglobe.com": {
+        "category": "News and Media", 
+        "sampleIndex": 216, 
+        "idInDataset": 9
+    }, 
+    "http://aweber.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 247, 
+        "idInDataset": 10
+    }, 
+    "http://makemytrip.com": {
+        "category": "Travel", 
+        "sampleIndex": 252, 
+        "idInDataset": 11
+    }, 
+    "http://experts-exchange.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 254, 
+        "idInDataset": 12
+    }, 
+    "http://whatsapp.com": {
+        "category": "Instant Messaging", 
+        "sampleIndex": 258, 
+        "idInDataset": 13
+    }, 
+    "http://ef.com": {
+        "category": "Education", 
+        "sampleIndex": 301, 
+        "idInDataset": 14
+    }, 
+    "http://themeforest.net": {
+        "category": "Information Technology", 
+        "sampleIndex": 317, 
+        "idInDataset": 15
+    }, 
+    "http://cdc.gov": {
+        "category": "Government and Legal Organizations", 
+        "sampleIndex": 441, 
+        "idInDataset": 16
+    }, 
+    "http://pokemon.com": {
+        "category": "Entertainment", 
+        "sampleIndex": 454, 
+        "idInDataset": 17
+    }, 
+    "http://linkbucks.com": {
+        "category": "Advertising", 
+        "sampleIndex": 507, 
+        "idInDataset": 18
+    }, 
+    "http://rsc.org": {
+        "category": "Business", 
+        "sampleIndex": 536, 
+        "idInDataset": 19
+    }, 
+    "http://refinery29.com": {
+        "category": "Society and Lifestyles", 
+        "sampleIndex": 581, 
+        "idInDataset": 20
+    }, 
+    "http://clipconverter.cc": {
+        "category": "Streaming Media and Download", 
+        "sampleIndex": 603, 
+        "idInDataset": 21
+    }, 
+    "http://starbucks.com": {
+        "category": "Restaurant and Dining", 
+        "sampleIndex": 668, 
+        "idInDataset": 22
+    }, 
+    "http://cplusplus.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 839, 
+        "idInDataset": 23
+    }, 
+    "http://techradar.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 958, 
+        "idInDataset": 24
+    }, 
+    "http://upenn.edu": {
+        "category": "Education", 
+        "sampleIndex": 968, 
+        "idInDataset": 25
+    }, 
+    "http://vimeo.com": {
+        "category": "Streaming Media and Download", 
+        "sampleIndex": 1038, 
+        "idInDataset": 26
+    }, 
+    "http://zazzle.com": {
+        "category": "Shopping", 
+        "sampleIndex": 1056, 
+        "idInDataset": 27
+    }, 
+    "http://templatemonster.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 1074, 
+        "idInDataset": 28
+    }, 
+    "http://lifehack.org": {
+        "category": "Society and Lifestyles", 
+        "sampleIndex": 1088, 
+        "idInDataset": 29
+    }, 
+    "http://advertiserurl.com": {
+        "category": "Health and Wellness", 
+        "sampleIndex": 1166, 
+        "idInDataset": 30
+    }, 
+    "http://domain.com.au": {
+        "category": "Real Estate", 
+        "sampleIndex": 1207, 
+        "idInDataset": 31
+    }, 
+    "http://oxfordlearnersdictionaries.com": {
+        "category": "Reference", 
+        "sampleIndex": 1308, 
+        "idInDataset": 32
+    }, 
+    "http://calculator.net": {
+        "category": "Reference", 
+        "sampleIndex": 1322, 
+        "idInDataset": 33
+    }, 
+    "http://sprint.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 1330, 
+        "idInDataset": 34
+    }, 
+    "http://scientificamerican.com": {
+        "category": "Education", 
+        "sampleIndex": 1387, 
+        "idInDataset": 35
+    }, 
+    "http://fastcompany.com": {
+        "category": "Business", 
+        "sampleIndex": 1433, 
+        "idInDataset": 36
+    }, 
+    "http://skidrowreloaded.com": {
+        "category": "Games", 
+        "sampleIndex": 1449, 
+        "idInDataset": 37
+    }, 
+    "http://artstation.com": {
+        "category": "Arts and Culture", 
+        "sampleIndex": 1489, 
+        "idInDataset": 38
+    }, 
+    "http://bitmedianetwork.com": {
+        "category": "Advertising", 
+        "sampleIndex": 1562, 
+        "idInDataset": 39
+    }, 
+    "http://mastercard.com.au": {
+        "category": "Finance and Banking", 
+        "sampleIndex": 1639, 
+        "idInDataset": 40
+    }, 
+    "http://worldstarhiphop.com": {
+        "category": "Streaming Media and Download", 
+        "sampleIndex": 1727, 
+        "idInDataset": 41
+    }, 
+    "http://enjin.com": {
+        "category": "Games", 
+        "sampleIndex": 1748, 
+        "idInDataset": 42
+    }, 
+    "http://bbc.com": {
+        "category": "News and Media", 
+        "sampleIndex": 1784, 
+        "idInDataset": 43
+    }, 
+    "http://keeplinks.eu": {
+        "category": "Business", 
+        "sampleIndex": 1789, 
+        "idInDataset": 44
+    }, 
+    "http://filecrypt.cc": {
+        "category": "Information Technology", 
+        "sampleIndex": 1790, 
+        "idInDataset": 45
+    }, 
+    "http://venturebeat.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 1846, 
+        "idInDataset": 46
+    }, 
+    "http://lifewire.com": {
+        "category": "Business", 
+        "sampleIndex": 1854, 
+        "idInDataset": 47
+    }, 
+    "http://ycombinator.com": {
+        "category": "Finance and Banking", 
+        "sampleIndex": 1871, 
+        "idInDataset": 48
+    }, 
+    "http://freepdfconvert.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 1892, 
+        "idInDataset": 49
+    }, 
+    "http://archive.is": {
+        "category": "Reference", 
+        "sampleIndex": 1904, 
+        "idInDataset": 50
+    }, 
+    "http://johnlewis.com": {
+        "category": "Shopping", 
+        "sampleIndex": 1958, 
+        "idInDataset": 51
+    }, 
+    "http://shareasale.com": {
+        "category": "Business", 
+        "sampleIndex": 2010, 
+        "idInDataset": 52
+    }, 
+    "http://popsugar.com": {
+        "category": "Entertainment", 
+        "sampleIndex": 2072, 
+        "idInDataset": 53
+    }, 
+    "http://payoneer.com": {
+        "category": "Finance and Banking", 
+        "sampleIndex": 2103, 
+        "idInDataset": 54
+    }, 
+    "http://metrolyrics.com": {
+        "category": "Entertainment", 
+        "sampleIndex": 2119, 
+        "idInDataset": 55
+    }, 
+    "http://mit.edu": {
+        "category": "Education", 
+        "sampleIndex": 2147, 
+        "idInDataset": 56
+    }, 
+    "http://worldofwarcraft.com": {
+        "category": "Games", 
+        "sampleIndex": 2171, 
+        "idInDataset": 57
+    }, 
+    "http://irs.gov": {
+        "category": "Government and Legal Organizations", 
+        "sampleIndex": 2184, 
+        "idInDataset": 58
+    }, 
+    "http://keywordblocks.com": {
+        "category": "Advertising", 
+        "sampleIndex": 2201, 
+        "idInDataset": 59
+    }, 
+    "http://manualslib.com": {
+        "category": "Reference", 
+        "sampleIndex": 2288, 
+        "idInDataset": 60
+    }, 
+    "http://goodreads.com": {
+        "category": "Arts and Culture", 
+        "sampleIndex": 2316, 
+        "idInDataset": 61
+    }, 
+    "http://dhl.com": {
+        "category": "Business", 
+        "sampleIndex": 2336, 
+        "idInDataset": 62
+    }, 
+    "http://nasa.gov": {
+        "category": "Government and Legal Organizations", 
+        "sampleIndex": 2383, 
+        "idInDataset": 63
+    }, 
+    "http://washington.edu": {
+        "category": "Education", 
+        "sampleIndex": 2402, 
+        "idInDataset": 64
+    }, 
+    "http://symantec.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 2488, 
+        "idInDataset": 65
+    }, 
+    "http://techtarget.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 2497, 
+        "idInDataset": 66
+    }, 
+    "http://custhelp.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 2550, 
+        "idInDataset": 67
+    }, 
+    "http://suntrust.com": {
+        "category": "Finance and Banking", 
+        "sampleIndex": 2567, 
+        "idInDataset": 68
+    }, 
+    "http://bgr.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 2589, 
+        "idInDataset": 69
+    }, 
+    "http://deezer.com": {
+        "category": "Streaming Media and Download", 
+        "sampleIndex": 2617, 
+        "idInDataset": 70
+    }, 
+    "http://ralphlauren.com": {
+        "category": "Business", 
+        "sampleIndex": 2622, 
+        "idInDataset": 71
+    }, 
+    "http://digg.com": {
+        "category": "News and Media", 
+        "sampleIndex": 2830, 
+        "idInDataset": 72
+    }, 
+    "http://actcorp.in": {
+        "category": "Information Technology", 
+        "sampleIndex": 2945, 
+        "idInDataset": 73
+    }, 
+    "http://airbnb.co.uk": {
+        "category": "Travel", 
+        "sampleIndex": 2967, 
+        "idInDataset": 74
+    }, 
+    "http://plusnetwork.com": {
+        "category": "Search Engines and Portals", 
+        "sampleIndex": 3001, 
+        "idInDataset": 75
+    }, 
+    "http://rssing.com": {
+        "category": "Newsgroups and Message Boards", 
+        "sampleIndex": 3020, 
+        "idInDataset": 76
+    }, 
+    "http://mmo-champion.com": {
+        "category": "Games", 
+        "sampleIndex": 3022, 
+        "idInDataset": 77
+    }, 
+    "http://clipartkid.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 3059, 
+        "idInDataset": 78
+    }, 
+    "http://telstra.com.au": {
+        "category": "Information Technology", 
+        "sampleIndex": 3068, 
+        "idInDataset": 79
+    }, 
+    "http://gotowebinar.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 3070, 
+        "idInDataset": 80
+    }, 
+    "http://ticketmaster.com": {
+        "category": "Shopping", 
+        "sampleIndex": 3100, 
+        "idInDataset": 81
+    }, 
+    "http://sheknows.com": {
+        "category": "Society and Lifestyles", 
+        "sampleIndex": 3167, 
+        "idInDataset": 82
+    }, 
+    "http://weebly.com": {
+        "category": "Web Hosting", 
+        "sampleIndex": 3191, 
+        "idInDataset": 83
+    }, 
+    "http://9to5mac.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 3353, 
+        "idInDataset": 84
+    }, 
+    "http://wargaming.net": {
+        "category": "Games", 
+        "sampleIndex": 3368, 
+        "idInDataset": 85
+    }, 
+    "http://liul.net": {
+        "category": "Entertainment", 
+        "sampleIndex": 3392, 
+        "idInDataset": 86
+    }, 
+    "http://wondershare.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 3447, 
+        "idInDataset": 87
+    }, 
+    "http://jimdo.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 3634, 
+        "idInDataset": 88
+    }, 
+    "http://bluestacks.com": {
+        "category": "Freeware and Software Downloads", 
+        "sampleIndex": 3657, 
+        "idInDataset": 89
+    }, 
+    "http://cabelas.com": {
+        "category": "Weapons (Sales)", 
+        "sampleIndex": 3679, 
+        "idInDataset": 90
+    }, 
+    "http://seek.com.au": {
+        "category": "Job Search", 
+        "sampleIndex": 3758, 
+        "idInDataset": 91
+    }, 
+    "http://apkpure.com": {
+        "category": "Freeware and Software Downloads", 
+        "sampleIndex": 4047, 
+        "idInDataset": 92
+    }, 
+    "http://blockchain.info": {
+        "category": "Finance and Banking", 
+        "sampleIndex": 4051, 
+        "idInDataset": 93
+    }, 
+    "http://ibtimes.co.uk": {
+        "category": "News and Media", 
+        "sampleIndex": 4054, 
+        "idInDataset": 94
+    }, 
+    "http://worktile.com": {
+        "category": "Information Technology", 
+        "sampleIndex": 4068, 
+        "idInDataset": 95
+    }, 
+    "http://flipboard.com": {
+        "category": "News and Media", 
+        "sampleIndex": 4089, 
+        "idInDataset": 96
+    }, 
+    "http://ck12.org": {
+        "category": "Education", 
+        "sampleIndex": 4262, 
+        "idInDataset": 97
+    }, 
+    "http://bmo.com": {
+        "category": "Finance and Banking", 
+        "sampleIndex": 4421, 
+        "idInDataset": 98
+    }, 
+    "http://service.gov.uk": {
+        "category": "Government and Legal Organizations", 
+        "sampleIndex": 4434, 
+        "idInDataset": 99
+    }
+}
