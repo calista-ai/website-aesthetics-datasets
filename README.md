@@ -153,7 +153,7 @@ The users were asked to rate a webpage with a score between 1 to 9.
     - who reported to be under 12 years of age and over 91.
 
 * *[preprocess/](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/preprocess/)*: Preprocessed data for Machine learning. The dataset was randomly
-divided the dataset into 300 training samples (75.4%) and 98 testing samples (24.6%).
+divided into 300 training samples (75.4%) and 98 testing samples (24.6%).
 
     * *[preprocess/resized](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/preprocess/resized/)*: Contains the images downsampled 4 times (resolution: 256 × 192).
 
