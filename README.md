@@ -120,5 +120,8 @@ We also utilized the **Bradley-Terry model in order to extract a rank for each w
 
 * *[data/comparisons.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/comparisons.csv)*: The same information with *[data/comparisons.json](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/comparisons.json)* in CSV format.
 
+* *[rank_websites.R](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/rank_websites.R)*: A script that utilizes the Bradley-Terry model to extract a rank for each website based on the filtered comparison-based data. The final aesthetics scores are on the scale 1-10.
+
+* *[website_scores.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/website_scores.csv)*: Contains the output of *[rank_websites.R](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/rank_websites.R)*.
 
 ## Rating-Based Dataset
