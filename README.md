@@ -27,6 +27,17 @@ Asking users to compare pairs of items is a more natural and reliable alternativ
 
 Data were collected via [Calista Crowdsourcing App](https://github.com/calista-ai/crowdsourcing-app) that is currently running on [https://data.calista.app](https://data.calista.app).
 
+**Note: This dataset will be regularly updated as we collect new data**
+
 ### Description
+
+This dataset contains **aesthetic evaluations on 100 webpages** that were randomly selected from the Top 5000 websites list by Alexa Rankings.
+
+During the evaluation process, 2 webpages were displayed at a time and the users were asked to choose which website design is more attractive.
+
+From the total of 249 user sessions that were completed through our application, 174 passed the answer consistency check (69.88%). Through this process, we managed to collect **5094 pairwise comparisons**.
+
+We also utilized the **Bradley-Terry model in order to extract a rank for each webpage** through the comparison-based data collected.
+
 
 ## Rating-Based Dataset
