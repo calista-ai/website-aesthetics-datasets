@@ -125,3 +125,40 @@ We also utilized the **Bradley-Terry model in order to extract a rank for each w
 * *[website_scores.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/website_scores.csv)*: Contains the output of *[rank_websites.R](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/rank_websites.R)*.
 
 ## Rating-Based Dataset
+
+In an attempt to establish a better understanding of
+how people’s individual visual preferences differ, the first public dataset on website aesthetics was introduced in Katharina Reinecke and Krzysztof Z. Gajos, "Quantifying Visual Preferences Around the World", Human Factors in Computing Systems (CHI), 2014. The data was collected through LabintheWild (www.LabintheWild.org).
+
+The full dataset can be found [here](http://iis.seas.harvard.edu/resources/aesthetics-chi14).
+
+### Description
+
+The dataset contains **398 webpage screenshoots** with **372,402 scorewise aesthetics ratings**.
+
+The users were asked to rate a webpage with a score between 1 to 9.
+
+### Files
+
+* *[images/](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/images/)*: Contains the webpage screenshots in PNG format.
+
+* *[data/ae_only_unambiguous_1000.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/data/ae_only_unambiguous_1000.csv)*: Contains the data used for the analyses of country influences, i.e., it does not contain culturally ambiguous participants who had lived in multiple countries in their lives (at least six months in another country) or whose parents were of a different nationality. We further excluded all countries with fewer than 1000 paired ratings from this dataset. The dataset consists of 441,478 paired ratings and 43 countries.
+
+    Note that for the preparation of this dataset the authors excluded participants
+
+    - who reported that they did not have normal or corrected-to-normal vision
+    - who reported that they had previously participated in the study
+    - who did not fill in the demographics
+    - who reported countries for their own or their parents backgrounds that suggested random picking from the top of the list
+    - whose sum of years spent in different countries was hugely different from their age
+    - who reported to be under 12 years of age and over 91.
+
+* *[preprocess/](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/preprocess/)*: Preprocessed data for Machine learning. The dataset was randomly
+divided the dataset into 300 training samples (75.4%) and 98 testing samples (24.6%).
+
+    * *[preprocess/resized](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/preprocess/resized/)*: Contains the images downsampled 4 times (resolution: 256 × 192).
+
+    * *[preprocess/train_list.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/preprocess/train_list.csv)*: Contains all the user ratings that the images in the training set received.
+
+    * *[preprocess/train_means_list.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/preprocess/train_means_list.csv)*: Contains the mean rating that the images in the training set received.
+
+    * *[preprocess/test_list.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/rating-based-dataset/preprocess/test_list.csv)*: Contains the mean rating that the images in the test set received.
