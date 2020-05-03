@@ -39,5 +39,7 @@ From the total of 249 user sessions that were completed through our application,
 
 We also utilized the **Bradley-Terry model in order to extract a rank for each webpage** through the comparison-based data collected.
 
+### Files
+
 
 ## Rating-Based Dataset
