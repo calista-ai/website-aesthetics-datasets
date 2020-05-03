@@ -79,8 +79,8 @@ We also utilized the **Bradley-Terry model in order to extract a rank for each w
             "d": "Date and time that the vote session started",
             "vot": [
                 {
-                    "imL": "Image ID in the dataset displayed at the left side",
-                    "imR": "Image ID in the dataset displayed at the left",
+                    "imL": "Image ID displayed at the left side",
+                    "imR": "Image ID displayed at the left",
                     "imC": "The ID of the image that was chosen by the user"
                 },
                 ...
@@ -91,7 +91,7 @@ We also utilized the **Bradley-Terry model in order to extract a rank for each w
     ]
     ```
 
-    **Note**: A user session is considered as accepted on two conditions:
+    **Note**: A user session is considered as **accepted** on two conditions:
 
     * The user evaluated all the session's pairwise image comparisons (a session has 32 comparisons)
 
