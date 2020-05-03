@@ -37,7 +37,7 @@ During the evaluation process, 2 webpages were displayed at a time and the users
 
 From the total of 249 user sessions that were completed through our application, 174 passed the answer consistency check (69.88%). Through this process, we managed to collect **5094 pairwise comparisons**.
 
-We also utilized the **Bradley-Terry model in order to extract a rank for each webpage** through the comparison-based data collected.
+We also utilized the **Bradley-Terry model in order to extract a rank for each webpage** through the comparison-based data collected. The final aesthetics scores are on the scale 1-10.
 
 ### Files
 
@@ -120,7 +120,7 @@ We also utilized the **Bradley-Terry model in order to extract a rank for each w
 
 * *[data/comparisons.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/comparisons.csv)*: The same information with *[data/comparisons.json](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/comparisons.json)* in CSV format.
 
-* *[rank_websites.R](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/rank_websites.R)*: A script that utilizes the Bradley-Terry model to extract a rank for each website based on the filtered comparison-based data. The final aesthetics scores are on the scale 1-10.
+* *[rank_websites.R](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/rank_websites.R)*: A script that utilizes the Bradley-Terry model to extract a rank for each website based on the filtered comparison-based data.
 
 * *[website_scores.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/website_scores.csv)*: Contains the output of *[rank_websites.R](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/rank_websites.R)*.
 
