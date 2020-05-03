@@ -41,5 +41,84 @@ We also utilized the **Bradley-Terry model in order to extract a rank for each w
 
 ### Files
 
+* *[alexa_rankings/top-5000-websites.json](https://github.com/calista-ai/website-aesthetics-datasets/tree/master/comparison-based-dataset/alexa_rankings/top-5000-websites.json)*: Contains the Top 5000 websites list by Alexa Rankings.
+
+    Format:
+
+    ```bash
+    {
+        "Webpage URL": "Category"
+    }
+    ```
+
+* *[images/](https://github.com/calista-ai/website-aesthetics-datasets/tree/master/comparison-based-dataset/images)*: Contains the webpage screenshots in PNG format. The file *[website_data.json](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/images/website_data.json)* has information about the webpages.
+
+    Format:
+
+    ```bash
+    {
+        "Webpage URL": {
+            "category": "The website category according to the Top 5000 Website list",
+            "sampleIndex": "The website position in the file top-5000-websites.json",
+            "idInDataset": "The webpage ID in the dataset. Its screenshot is ID.png"
+        }
+    }
+    ```
+
+* *[data/votesessions.json](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/votesessions.json)*: Contains the data from each user session collected through the crowdsourcing application
+
+    Format:
+
+    ```bash
+    [
+        {
+            "_id": {
+                "$oid": "ObjectID"
+            },
+            "acc": "Gets the value true if the user session was accepted. Otherwise, false",
+            "d": "Date and time that the vote session started",
+            "vot": [
+                {
+                    "imL": "Image ID in the dataset displayed at the left side",
+                    "imR": "Image ID in the dataset displayed at the left",
+                    "imC": "The ID of the image that was chosen by the user"
+                },
+                ...
+            ],
+            "__v": "Not useful for analysis"
+        },
+        ...
+    ]
+    ```
+
+    **Note**: A user session is considered as accepted on two conditions:
+
+    * The user evaluated all the session's pairwise image comparisons (a session has 32 comparisons)
+
+    * The user passed the answer consistency check. Otherwise the user's answers are not considered reliable and the session is not accepted.
+
+* *[data/votesessions.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/votesessions.csv)*: The same information with *[data/votesessions.json](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/votesessions.json)* in CSV format.
+
+* *[data/comparisons.json](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/comparisons.json)*: Contains the filtered comparison-based data of the accepted user sessions.
+
+    Format:
+
+    ```bash
+    [
+        {
+            "_id": "Comparison ID",
+            "im1": "First image ID",
+            "im2": "Second image ID",
+            "w1": "Times that the first image won",
+            "w2": "Times that the second image won",
+            "t": "Total number of evaluations by users (t = w1 + w2)",
+            "u": "Not useful for analysis"
+        },
+        ...
+    ]
+    ```
+
+* *[data/comparisons.csv](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/comparisons.csv)*: The same information with *[data/comparisons.json](https://github.com/calista-ai/website-aesthetics-datasets/blob/master/comparison-based-dataset/data/comparisons.json)* in CSV format.
+
 
 ## Rating-Based Dataset
