@@ -1,5 +1,7 @@
 # Datasets on Website Aesthetics for Machine Learning
 
+[![DOI](https://zenodo.org/badge/256351172.svg)](https://zenodo.org/badge/latestdoi/256351172)
+
 This repository contains datasets which can be used for quantifying website aesthetics.
 
 ## Table of Contents
