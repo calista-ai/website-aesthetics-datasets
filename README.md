@@ -129,7 +129,7 @@ We also utilized the **Bradley-Terry model in order to extract a rank for each w
 In an attempt to establish a better understanding of
 how people’s individual visual preferences differ, the first public dataset on website aesthetics was introduced in Katharina Reinecke and Krzysztof Z. Gajos, "Quantifying Visual Preferences Around the World", Human Factors in Computing Systems (CHI), 2014. The data was collected through LabintheWild (www.LabintheWild.org).
 
-The full dataset can be found [here](http://iis.seas.harvard.edu/resources/aesthetics-chi14).
+The full dataset can be found [here](http://iis.seas.harvard.edu/resources/aesthetics-chi14) under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 license.
 
 ### Description
 
